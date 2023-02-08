@@ -1,7 +1,7 @@
 li {
     list-style-type: none;
     display: inline;
-    padding: 20px;
+    padding: 6px;
     float: right;
 }
 
@@ -12,15 +12,18 @@ li a.active {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: blue;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8%;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    text-align: right;
+    padding: 8px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -33,6 +36,13 @@ li a.active {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #dde3e1;
     color: white;
-  }
+}
+
+.title::before {
+    display: block;
+    content: '';
+    height: 100px;
+    text-align: center;
+}
