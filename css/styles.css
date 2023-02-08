@@ -12,7 +12,7 @@ li a.active {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: grey;
+    background-color: lightgrey;
     position: fixed;
     top: 0;
     width: 100%;
@@ -41,8 +41,10 @@ li a.active {
 }
 
 .title::before {
-    display: block;
-    content: '';
-    height: 100px;
+    position: absolute;
+    content: "T's Spot";
+    width: 100%;
     text-align: center;
+    top: 20%;
+    font-size: xx-large;
 }
