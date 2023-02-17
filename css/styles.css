@@ -42,11 +42,16 @@ li a.active {
 
 .title::before {
     position: absolute;
-    content: "T's Spot";
+    content: "T's \A SPOT \A";
+    white-space: pre-wrap;
+    font-family: 'Caveat', cursive;
     width: 100%;
     text-align: center;
     top: 15%;
-    font-size: xx-large;
+    font-size: xxx-large;
+    color: black;
+    line-height: 60px;
+    margin-left: 75px;
 }
 
 .title {
@@ -60,4 +65,16 @@ li a.active {
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -8px;
+    
+}
+
+h4 {
+    text-align: center;
+    display: inline;
+    position: absolute;
+    margin-top: 240px;
+}
+
+.logo {
+    text-align: center;
 }
