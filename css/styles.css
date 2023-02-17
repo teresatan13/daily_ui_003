@@ -12,7 +12,7 @@ li a.active {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: lightgrey;
+    background-color: rgba(221, 222, 225, 0.869);
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,7 +22,7 @@ li a.active {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    color: #f2f2f2;
+    color: grey;
     text-align: right;
     padding: 8px 16px;
     text-decoration: none;
@@ -31,13 +31,12 @@ li a.active {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: grey;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #dde3e1;
+    background-color: #c9cecc;
     color: white;
 }
 
@@ -60,4 +59,5 @@ li a.active {
     position: static;
     margin-left: -8px;
     margin-right: -8px;
+    margin-top: -8px;
 }
