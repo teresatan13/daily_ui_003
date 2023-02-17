@@ -48,3 +48,12 @@ li a.active {
     top: 15%;
     font-size: xx-large;
 }
+
+.title {
+    background-image: url("../images/food.jpg");
+    height: 100%;
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
