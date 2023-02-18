@@ -86,6 +86,7 @@ h4 {
 .reservation {
     margin-top: 50px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 .reservation_form {
@@ -95,6 +96,8 @@ h4 {
     width: 25%;
     padding: 16px;
     background-color: white;
+    border: groove;
+    font-family: sans-serif;
 }
 
 .form-group {
@@ -111,4 +114,29 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 
 .checkbox {
     display: inline;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.parent_checkbox {
+    margin-bottom: 30px;
+}
+
+.guest_count {
+    margin-bottom: 20px;
+}
+
+.special_requests {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+}
+
+.reserve {
+
+    padding: 10px;
 }
