@@ -3,6 +3,7 @@ li {
     display: inline;
     padding: 6px;
     float: right;
+    font-family: sans-serif;
 }
 
 li a.active {
@@ -49,9 +50,9 @@ li a.active {
     text-align: center;
     top: 15%;
     font-size: xxx-large;
-    color: black;
+    color: rgb(63, 62, 62);
     line-height: 60px;
-    margin-left: 75px;
+    margin-left: 90px;
 }
 
 .title {
@@ -73,8 +74,41 @@ h4 {
     display: inline;
     position: absolute;
     margin-top: 240px;
+    font-family: sans-serif;
 }
 
 .logo {
     text-align: center;
+    color: rgb(74, 73, 73);
+    font-size: large;
+}
+
+.reservation {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.reservation_form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 16px;
+    background-color: white;
+}
+
+.form-group {
+    padding: 0;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=date], input[type=time] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.checkbox {
+    display: inline;
 }
