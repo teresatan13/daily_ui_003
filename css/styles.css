@@ -154,20 +154,17 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 .pancake_img {
     margin-left: 60px;
     margin-top: 50px;
-    
 }
 
 .deliver {
     margin-top: 150px;
     font-family: sans-serif;
-    margin-left: 230px;
     margin-bottom: 50px;
     font-size: xxx-large;
     color: rgb(63, 62, 62);
 }
 
 .delivery_phrase {
-    margin-right: 410px;
     font-family: sans-serif;
     font-size: large;
     line-height: 32px;
@@ -177,7 +174,6 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 }
 
 .motto {
-    margin-right: 410px;
     font-size: large;
     line-height: 32px;
     font-family: sans-serif;
@@ -187,9 +183,12 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 }
 
 .order_button {
-    margin-right: 1050px;
     margin-top: 150px;
     padding: 10px;
     width: 15%;
     border-radius: 5px;
+}
+
+.float_child {
+    text-align: center;
 }
