@@ -153,18 +153,19 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 .pancake_img {
     margin-left: 60px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .logo {
     position: absolute;
-    margin-left: 1175px;
+    margin-left: 1120px;
     margin-top: 30px;
+    float: right;
 }
 
 .deliver {
     margin-top: 150px;
     font-family: sans-serif;
-    margin-bottom: 50px;
     font-size: xxx-large;
     color: rgb(63, 62, 62);
 }
@@ -174,7 +175,7 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
     font-size: large;
     line-height: 32px;
     text-align: center;
-    margin-top: 75px;
+    margin-top: 35px;
     color: rgb(63, 62, 62);
 }
 
@@ -183,12 +184,12 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
     line-height: 32px;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
     color: rgb(63, 62, 62);
 }
 
 .order_button {
-    margin-top: 150px;
+    margin-top: 60px;
     padding: 10px;
     width: 25%;
     border-radius: 5px;
@@ -205,11 +206,17 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
     margin-top: 50px;
     margin-left: -8px;
     margin-right: -8px;
+    overflow: auto;
 }
 
-.catering {
+.catering_img {
     margin-top: 50px;
     margin-right: 60px;
+}
+
+#catering_img {
+    float: right;
+    margin: 0 10px 10px 0;
 }
 
 .float_child2 {
@@ -217,6 +224,7 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
     font-family: sans-serif;
     margin-top: 50px;
     color: rgb(63, 62, 62);
+    float: left;
 }
 
 .we_cater {
