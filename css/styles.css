@@ -9,7 +9,6 @@ html, body {
 
 li {
     list-style-type: none;
-    display: inline;
     padding: 6px;
     float: right;
     font-family: sans-serif;
@@ -18,6 +17,14 @@ li {
 li a.active {
     background-color: #04AA6d;
     color: white;
+}
+
+.topnav_links {
+    margin-top: -45px;
+}
+
+#navbar_logo {
+    margin-left: 10px;
 }
 
 /* Add a black background color to the top navigation */
@@ -83,7 +90,7 @@ h4 {
     display: inline;
     position: absolute;
     margin-top: 260px;
-    margin-left: -230px;
+    margin-left: -260px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
