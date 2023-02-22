@@ -270,23 +270,29 @@ a:active {
 footer {
     background-color: rgba(221, 222, 225, 0.869);
     margin: -8px;
-    margin-top: -26px;
-    bottom: -10px;
+    margin-top: 26px;
+    position: relative;
+    margin-right: -8px;
+    height: 100px;
 }
 
 .social {
     margin-left: 20px;
-    height: 7%;
 }
 
 h6 {
     font-family: sans-serif;
     color: rgb(63, 62, 62);
-    text-align: center;
     display: inline;
-    margin-left: 500px;
+    margin-left: 625px;
+    font-size: small;
 }
 
 .social_icons {
-    padding: 15px;
+    display: table;
+    margin: -20px auto;
+}
+
+#logo {
+    margin-top: 15px;
 }
