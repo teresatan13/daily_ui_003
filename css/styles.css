@@ -45,7 +45,7 @@ li a.active {
     position: absolute;
     content: "T's \A SPOT \A";
     white-space: pre-wrap;
-    font-family: 'Caveat', cursive;
+    font-family: 'Merriweather Sans', sans-serif;
     width: 100%;
     text-align: center;
     top: 15%;
@@ -74,7 +74,7 @@ h4 {
     display: inline;
     position: absolute;
     margin-top: 240px;
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .logo {
@@ -86,7 +86,7 @@ h4 {
 .reservation {
     margin-top: 50px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .reservation_form {
@@ -97,7 +97,7 @@ h4 {
     padding: 16px;
     background-color: white;
     border: groove;
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .form-group {
@@ -165,13 +165,13 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 
 .deliver {
     margin-top: 150px;
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: xxx-large;
     color: rgb(63, 62, 62);
 }
 
 .delivery_phrase {
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: large;
     line-height: 32px;
     text-align: center;
@@ -182,7 +182,7 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 .motto {
     font-size: large;
     line-height: 32px;
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
     margin-top: 50px;
     color: rgb(63, 62, 62);
@@ -221,7 +221,7 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 
 .float_child2 {
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     margin-top: 140px;
     margin-left: -2200px;
     color: rgb(63, 62, 62);
@@ -239,7 +239,7 @@ input[type=text], input[type=email], input[type=tel], input[type=date], input[ty
 
 .cater_slogan {
     font-size: medium;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .catering_link {
@@ -281,7 +281,7 @@ footer {
 }
 
 h6 {
-    font-family: sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     color: rgb(63, 62, 62);
     display: inline;
     margin-left: 625px;
@@ -290,7 +290,7 @@ h6 {
 
 .social_icons {
     display: table;
-    margin: -20px auto;
+    margin: -22px auto;
 }
 
 #logo {
